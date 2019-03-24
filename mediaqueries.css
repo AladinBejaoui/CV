@@ -84,12 +84,27 @@
           padding-top: 10vh;
      }
 
+     .containerspec {
+          padding-top: 20vh;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       height: 20vh;
+     }
+
+     .containerphone {
+          display: none;
+     }
+
      .jumb4 {
           width: 50%;
           order: 2;
           padding-top: 0vh;
      }
 
+.simplon span {
+     width: 100%;
+}
 
      .jumb4 h1 {
           width: 100%;
@@ -127,7 +142,7 @@
        border-style: solid;
        border-color: white;
        border-width: 0px 1px 1px 0px;
-       transform: rotate(90deg);
+       transform: rotate(78deg);
        transition: border-width 150ms ease-in-out;
      }
 }

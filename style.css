@@ -22,7 +22,7 @@ a:hover {
 
 body {
      overflow-x: hidden;
-     background-color: black
+     background-color: black;
 }
 
 #menu {
@@ -120,8 +120,11 @@ body {
 
 .jumb2 {
      width: 100vw;
-     height: 100vh;
      /*background-color: black;*/
+}
+
+.titleofresearch {
+     padding-top: 5vh;
 }
 
 .logofa {
@@ -131,7 +134,7 @@ body {
 }
 
 .profilelogo {
-     color: white;
+     color: red;
 }
 
 .profile {
@@ -155,6 +158,7 @@ body {
 
 .jumb3 {
      /*background-color: black;*/
+     padding-top: 30vh;
 }
 
 .jumb3 h1 {
@@ -187,6 +191,23 @@ body {
 .jumb4 h1 {
      color: white;
      padding-top: 5vh;
+}
+
+.simplon {
+     justify-content: center;
+     display: flex;
+     width: 100%;
+     flex-wrap: wrap;
+}
+
+.simplon span {
+width: 100%;
+}
+
+.simplonspan2 {
+     padding-top: 5vh;
+     color: white;
+     font-size: 20px;
 }
 
 .jumb4 section {
@@ -225,4 +246,12 @@ body {
   align-items: center;
   justify-content: center;
   height: 20vh;
+}
+
+.containerspec {
+     display: none;
+}
+
+.fa-book-reader {
+     padding-top: 10vh;
 }
