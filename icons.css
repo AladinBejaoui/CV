@@ -1,0 +1,213 @@
+.flips {
+     display: flex;
+     justify-content: center;
+     padding-top: 10vh;
+}
+
+.allflips {
+     padding-bottom: 10vh;
+}
+
+/* FIRST ICON */
+.flip-container {
+     perspective: 1000;
+     width: 100%;
+}
+
+.flip-container:hover .flipper {
+     transform: rotateY(180deg);
+}
+
+/*speed of transition*/
+.flipper {
+     transition: 1100ms;
+     transform-style: preserve-3d;
+     position: relative;
+}
+
+.flip-container, .front, .front2, .front3, .front4, .front5, .front6, .front7, .front8, .front9, .front10, .front11, .front12, .front13,
+.back, .back2, .back3, .back4, .back5, .back6, .back7, .back8, .back9, .back10, .back11, .back12, .back13 {
+     width: 200px;
+     height: 200px;
+     border-radius: 0%;
+}
+
+.front, .front2, .front3, .front4, .front5, .front6, .front7, .front8, .front9, .front10, .front11, .front12, .front13,
+.back, .back2, .back3, .back4, .back5, .back6, .back7, .back8, .back9, .back10, .back11, .back12, .back13 {
+     backface-visibility: hidden;
+     position: absolute;
+     top: 0;
+     left: 0;
+}
+
+.front {
+     background: url('images/html.png') no-repeat;
+     z-index: 2;
+     background-size: cover;
+}
+
+.back {
+     background: url('images/5of5.png') no-repeat center;
+     background-size: contain;
+     transform: rotateY(180deg);
+     border-radius: 50%;
+}
+
+.front2 {
+     background: url('images/css.png') no-repeat;
+     z-index: 2;
+     background-size: cover;
+}
+
+.back2 {
+     background: url('images/5of5.png') no-repeat center;
+     background-size: contain;
+     transform: rotateY(180deg);
+     border-radius: 50%;
+}
+
+.front3 {
+     background: url('images/javascript.png') no-repeat;
+     z-index: 2;
+     background-size: cover;
+}
+
+.back3 {
+     background: url('images/4of5.png') no-repeat center;
+     background-size: contain;
+     transform: rotateY(180deg);
+     border-radius: 50%;
+}
+
+.front4 {
+     background: url('images/php.png') no-repeat;
+     z-index: 2;
+     background-size: cover;
+}
+
+.back4 {
+     background: url('images/4of5.png') no-repeat center;
+     background-size: contain;
+     transform: rotateY(180deg);
+     border-radius: 50%;
+}
+
+.front5 {
+     background: url('images/mysql.png') no-repeat;
+     z-index: 2;
+     background-size: cover;
+}
+
+.back5 {
+     background: url('images/4of5.png') no-repeat center;
+     background-size: contain;
+     transform: rotateY(180deg);
+     border-radius: 50%;
+}
+
+.front6 {
+     background: url('images/java.png') no-repeat;
+     z-index: 2;
+     background-size: cover;
+}
+
+.back6 {
+     background: url('images/2of5.png') no-repeat center;
+     background-size: contain;
+     transform: rotateY(180deg);
+     border-radius: 50%;
+}
+
+.front7 {
+     background: url('images/bootstrap.png') no-repeat;
+     z-index: 2;
+     background-size: cover;
+}
+
+.back7 {
+     background: url('images/5of5.png') no-repeat center;
+     background-size: contain;
+     transform: rotateY(180deg);
+     border-radius: 50%;
+}
+
+.front8 {
+     background: url('images/jquery.png') no-repeat;
+     z-index: 2;
+     background-size: cover;
+}
+
+.back8 {
+     background: url('images/4of5.png') no-repeat center;
+     background-size: contain;
+     transform: rotateY(180deg);
+     border-radius: 50%;
+}
+
+.front9 {
+     background: url('images/angular.png') no-repeat;
+     z-index: 2;
+     background-size: cover;
+}
+
+.back9 {
+     background: url('images/4of5.png') no-repeat center;
+     background-size: contain;
+     transform: rotateY(180deg);
+     border-radius: 50%;
+}
+
+.front10 {
+     background: url('images/vue.jpg') no-repeat;
+     border-radius: 50%;
+     z-index: 2;
+     background-size: cover;
+}
+
+.back10 {
+     background: url('images/4of5.png') no-repeat center;
+     background-size: contain;
+     transform: rotateY(180deg);
+     border-radius: 50%;
+}
+
+.front11 {
+     background: url('images/nodejs.png') no-repeat;
+     z-index: 2;
+     background-size: cover;
+}
+
+.back11 {
+     background: url('images/4of5.png') no-repeat center;
+     background-size: contain;
+     transform: rotateY(180deg);
+     border-radius: 50%;
+}
+
+.front12 {
+     background: url('images/laravel.png') no-repeat;
+     border-radius: 50%;
+     z-index: 2;
+     background-size: cover;
+}
+
+.back12 {
+     background: url('images/4of5.png') no-repeat center;
+     background-size: contain;
+     transform: rotateY(180deg);
+     border-radius: 50%;
+}
+
+.front13 {
+     background: url('images/symfony.png') no-repeat;
+     border-radius: 50%;
+     z-index: 2;
+     background-size: cover;
+}
+
+.back13 {
+     background: url('images/4of5.png') no-repeat center;
+     background-size: contain;
+     transform: rotateY(180deg);
+     border-radius: 50%;
+}

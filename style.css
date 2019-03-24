@@ -1,0 +1,228 @@
+* {
+     scroll-behavior: smooth;
+}
+
+a {
+     color: inherit;
+     text-decoration: none;
+     outline: none;
+}
+
+a:visited {
+     color: inherit;
+     text-decoration: none;
+     outline: none;
+}
+
+a:hover {
+     color: inherit;
+     text-decoration: none;
+     outline: none;
+}
+
+body {
+     overflow-x: hidden;
+     background-color: black
+}
+
+#menu {
+     visibility: hidden;
+     height: 100%;
+     width: 100%;
+     background-color: black;
+     z-index: 1;
+     flex-wrap: wrap;
+     text-align: center;
+}
+
+#menu h1 {
+     width: 100%;
+     padding-top: 10vh;
+     color: white;
+}
+
+#menu>h2 {
+     width: 100%;
+     padding-top: 10vh;
+     color: white;
+     font-size: 25px;
+}
+
+.slider-exit:hover {
+     color: red;
+}
+
+.slider-exit {
+     padding-left: 2vw;
+     padding-top: 1vh;
+}
+
+
+
+
+
+.jumb {
+     height: 100vh;
+     width: 100vw;
+     /*background-color: black;*/
+}
+
+.photo {
+     padding-top: 10vh;
+     display: flex;
+     width: 100%;
+     justify-content: center;
+}
+
+.photo img {
+     height: 300px;
+     width: 300px;
+     border-radius: 50%;
+     border: 2px purple solid;
+}
+
+.containhumberger {
+     display: flex;
+     justify-content: flex-end;
+     flex-wrap: wrap;
+}
+
+.hamburger {
+     padding-right: 5vw;
+     padding-top: 1vh;
+     color: white;
+     z-index: 1;
+}
+
+.infos {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+}
+
+.name {
+     font-family: 'Source Sans Pro', sans-serif;
+     font-size: 30px;
+     text-align: center;
+     padding-top: 5vh;
+     color: white;
+     width: 100%;
+}
+
+.job {
+     font-family: 'Source Sans Pro', sans-serif;
+     font-size: 20px;
+     padding-top: 5vh;
+     color: white;
+     width: 100%;
+     text-align: center;
+}
+
+.jumb2 {
+     width: 100vw;
+     height: 100vh;
+     /*background-color: black;*/
+}
+
+.logofa {
+     display: flex;
+     justify-content: center;
+     padding-top: 10vh;
+}
+
+.profilelogo {
+     color: white;
+}
+
+.profile {
+     text-align: center;
+     font-size: 20px;
+     color: white;
+     padding-top: 4vh;
+}
+
+.advert {
+     color: red;
+}
+
+.listeinfos {
+     line-height: 40px;
+}
+
+.hideme {
+     opacity: 0;
+}
+
+.jumb3 {
+     /*background-color: black;*/
+}
+
+.jumb3 h1 {
+     padding-top: 4vh;
+     width: 100%;
+     text-align: center;
+     color: white;
+}
+
+.jumb3 h2 {
+     font-size: 30px;
+     padding-top: 10vh;
+     width: 100%;
+     text-align: center;
+     color: white;
+}
+
+.jumb4 {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     padding-top: 5vh;
+}
+
+.jumb4 i {
+     width: 100%;
+     color: red;
+}
+
+.jumb4 h1 {
+     color: white;
+     padding-top: 5vh;
+}
+
+.jumb4 section {
+     text-align: center;
+     padding-top: 4vh;
+}
+
+.simplontitre {
+     color: red;
+     font-size: 40px
+}
+
+.simploncontenu {
+     font-size: 16px;
+     color: white;
+}
+
+.arrow, .arrowspec {
+  box-sizing: border-box;
+  height: 5vw;
+  width: 5vw;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 1px 1px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+}
+
+.arrow:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+}

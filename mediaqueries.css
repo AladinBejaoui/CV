@@ -1,0 +1,133 @@
+@media screen and (max-width:380px) {
+     .photo img {
+          height: 200px;
+          width: 200px;
+          border-radius: 50%;
+          border: 2px purple solid;
+     }
+
+     .profilelogo {
+          color: red;
+     }
+
+     .listeinfos {
+          line-height: 25px;
+          font-size: 15px;
+     }
+
+     .profile h1 {
+          font-size: 30px;
+     }
+}
+
+@media screen and (min-width:1000px) {
+     body {
+          background-image: url(images/body.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: 28%;
+     }
+
+     .containjumb {
+          display: flex;
+          flex-wrap: wrap;
+     }
+
+     .hamburger {
+          display: none;
+     }
+
+     .logofa {
+          text-align: center;
+          width: 100%;
+     }
+
+     .jumb {
+          padding: 0;
+          margin: 0;
+     }
+
+     .jumb img {
+          border: 2px solid red;
+     }
+
+     .jumb2 {
+          display: flex;
+          width: 50%;
+          flex-wrap: wrap;
+          padding: 0;
+          margin: 0;
+          order: 1;
+     }
+
+     .profile {
+          width: 100%;
+     }
+
+     .profilelogo {
+          color: red;
+     }
+
+     .flip-container, .front, .front2, .front3, .front4, .front5, .front6, .front7, .front8, .front9, .front10, .front11, .front12, .front13,
+     .back, .back2, .back3, .back4, .back5, .back6, .back7, .back8, .back9, .back10, .back11, .back12, .back13 {
+          width: 130px;
+          height: 130px;
+          border-radius: 0%;
+     }
+
+     .jumb3 {
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          order: 3;
+          padding-top: 10vh;
+     }
+
+     .jumb4 {
+          width: 50%;
+          order: 2;
+          padding-top: 0vh;
+     }
+
+
+     .jumb4 h1 {
+          width: 100%;
+          text-align: center;
+          padding-top: 4vh;
+          color: white;
+     }
+
+     .allflips {
+          width: 100%;
+          flex-wrap: wrap;
+          display: flex;
+     }
+
+     .flips {
+          width: 50%;
+     }
+
+     .flip13 {
+          width: 100%;
+     }
+
+     .advert {
+          display: none;
+     }
+
+     .front12, .front10, .front13, .front7 {
+          border-radius: 50%;
+     }
+
+     .arrowspec {
+       box-sizing: border-box;
+       height: 5vw;
+       width: 5vw;
+       border-style: solid;
+       border-color: white;
+       border-width: 0px 1px 1px 0px;
+       transform: rotate(90deg);
+       transition: border-width 150ms ease-in-out;
+     }
+}
